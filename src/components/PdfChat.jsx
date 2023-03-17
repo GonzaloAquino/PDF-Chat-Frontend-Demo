@@ -21,7 +21,7 @@ export default function PdfChat() {
   const onUploadFile = (data) => setFileName(data);
 
   const handleCommandSubmit = async (command) => {
-    const apiUrl = "http://127.0.0.1:5000/query";
+    const apiUrl = "http://64.226.82.147:5000/query";
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
